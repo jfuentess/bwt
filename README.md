@@ -1,2 +1,3 @@
-# bwt
-Space efficiente computation of the BWT
+# Space efficiente computation of the BWT
+
+Under construction
