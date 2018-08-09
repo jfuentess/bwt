@@ -1,3 +1,18 @@
-# Space efficiente computation of the BWT
+# Space-Efficient Computation of the Burrows-Wheeler Transform
 
-Under construction
+
+To compile:
+```
+bash build.sh
+```
+
+To run:
+```
+./bwt_se <input sequence> <delta in bits>
+```
+
+### Authors
+
+* José Fuentes-Sepúlveda
+* Gonzalo Navarro
+* Yakov Nekrich
