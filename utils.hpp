@@ -639,7 +639,7 @@ std::pair<E*,E*> split_par(S *seq, E *rotation, E *ref, E n, E iter, B *bits, E 
   E id_c = get_idx(rotation, ref[(3*n)/4], n, iter);
   E p = median(seq, id_a, id_b, id_c);
 
-  int32_t chunk = (int32_t)ceil((double)(n)/num_threads);
+  int32_t chunk = n/num_threads;
   uint32_t *L = new uint32_t[num_threads]();
   uint32_t *M = new uint32_t[num_threads]();
   uint32_t *R = new uint32_t[num_threads]();
